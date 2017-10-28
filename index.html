@@ -1,0 +1,2178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>鑫通娱乐 - 专业老虎机、电子游戏、捕鱼游戏</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="鑫通娱乐"/>
+    <meta name="description" content="鑫通娱乐"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="http://xt.staticxt.com/Public/images/favicon.ico" rel="shortcut icon" type="image/ico"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/game_common.css">
+</head>///////////
+<body>
+<div class="header ">
+    <div class="header_topsec">
+        <div class="container clearfix">
+            <div id="hdtp-mini">
+                <span id="drpdwn"></span>
+                <a href="#" id="drpdwntxt">快捷操作</a>
+                <ul id="hdrtp-minimenu">
+                    <li><a href="javascript:;" id="setHome">设为首页</a></li>
+                    <li><a href="javascript:;">收藏页面</a></li>
+                    <li><a href="javascript:;" class="last">清除缓存</a></li>
+                </ul>
+            </div>
+            <div class="notice">
+                <div id="spkr_icn"></div>
+                <marquee id="marq-notice" onmouseover="this.stop()" onmouseout="this.start()"
+                         onclick="javascript:showNotice();" style="cursor:pointer;">
+                    1) 亲爱的会员：您好，2017-10-22离线银行卡存款卡号已更换，请您以最新的离线银行卡存款，为您造成不便我们深感抱歉，祝您游戏愉快，多多盈利！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    2) 亲爱的会员：您好，2017-10-19微信离线二维码存款已更换，请以最新的微信二维码为准，为您造成不便我们深感抱歉，祝您游戏愉快，多多盈利！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    3) 〖重要通知〗亲爱的会员：非常抱歉，支付宝扫码存款通道处于维护中，暂时无法使用支付宝扫码进行存款，维护完成时间暂不确定，请关注官网公告消息。为您造成不便我们深感抱歉，祝您游戏愉快，多多盈利！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </marquee>
+            </div>
+            <div class="lgn_sgn">
+                <a href="javascript:" class=" popup_loginBtn popbg fl">登录</a>
+                <a href="gameRegister.html" class="popup_signBtn popbg fl">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="header_midsec">
+        <div class="container clearfix">
+            <a href="index.html" id="logo"></a>
+            <ul class="main_menu clearfix">
+                <li class="active">
+                    <a href="index.html" class="text_menu">首页
+                        <div></div>
+                        <span></span></a>
+                </li>
+                <li>
+                    <a href="todays_special.htm" class="text_menu">PT老虎机
+                        <div></div>
+                        <span></span></a>
+                </li>
+                <li>
+                    <a href="electronic_games.htm" class="text_menu">MG老虎机
+                        <div></div>
+                        <span></span></a>
+                </li>
+                <li>
+                    <a href="ag_page.htm" class="text_menu">QT老虎机
+                        <div></div>
+                        <span></span></a>
+                </li>
+                <li>
+                    <a href="as_page.htm" class="text_menu">TTG老虎机
+                        <div></div>
+                        <span></span></a>
+                </li>
+                <li>
+                    <a href="favourable_activity.htm" class="text_menu">优惠活动
+                        <div></div>
+                        <span></span></a>
+                </li>
+                <li>
+                    <a href="ag_dynamic.htm" class="text_menu">VIP超级会所
+                        <div></div>
+                        <span></span></a>
+                </li>
+                <li>
+                    <a href="siteguide.htm" class="text_menu">新手教学
+                        <div></div>
+                        <span></span></a>
+                </li>
+                <li>
+                    <a href="siteguide.htm" class="text_menu">合作代理
+                        <div></div>
+                        <span></span></a>
+                </li>
+                <li>
+                    <a href="downloads.htm" class="text_menu">下载中心
+                        <div></div>
+                    </a>
+                </li>
+            </ul>
+            <div class="qr_holder" style="display: none;">
+                <div class="qr_box"><img
+                        src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/gamesite/qr3.jpg"><span>PT客户端</span>
+                </div>
+                <div class="qr_box"><img
+                        src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/downloads/img02.jpg"
+                        class="imageWidth"><span>MG客户端</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="login">
+    <div class="popup_wrap" style="display: block;"></div>
+    <div class="popup_box" style="display: block;">
+        <div class="popup_label"></div>
+        <div id="poplgnfrm">
+            <div class="lgn_frmrow">
+                <span class="frm_lbl">用户名：</span>
+                <input type="text" class="inpt_1" maxlength="15" name="pop-username" id="pop-username"
+                       placeholder="请输入f开始的游戏账号">
+                <div class="clear"></div>
+            </div>
+            <div class="lgn_frmrow">
+                <span class="frm_lbl">密码：</span>
+                <input type="password" class="inpt_1" name="passwordtxt1" id="pop-password" value="" maxlength="16">
+                <span class="pswd_hide" id="pop-pwd"></span>
+                <div class="clear"></div>
+            </div>
+            <div class="lgn_frmrow hide">
+                <span class="frm_lbl">验证码：</span>
+                <input type="text" id="pop-code" class="inpt_2" value="" maxlength="4"
+                       onkeypress="return numberOnly(event);" placeholder="验证码">
+                <span>
+			    <img class="lgncode" src="http://www.agwin777.com/genCaptcha.htm"
+                     onclick="refreshCaptcha(this,'http://www.agwin777.com/genCaptcha.htm')">
+			</span>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <a href="javascript:;" class="lgnsbmt login_btn">登录</a>
+        <div id="lgn-bttm">
+            还没有AG环亚的账号？<a href="gameRegister.htm">极速注册</a>
+            <a href="forgot_password.htm" class="right">忘记密码</a>
+            <div class="clear"></div>
+        </div>
+        <a href="javascript:;" class="popup_close login_popup_close"></a>
+    </div>
+</div>
+<div class="banner">
+    <div class="banner-slide">
+        <ul>
+            <li><a href=""><img src="img/banner-1.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/banner-2.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/banner-3.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/banner-4.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/banner-1.jpg" alt=""></a></li>
+        </ul>
+        <div class="tab clearfix">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="float_con clearfix" >
+            <div id="fltcol1">
+                <p id="toptxt">目前共有 <b>21</b> 笔取款申请正在处理... | 平均到账时间 <b>6</b> 分钟</p>
+                <div id="cnybox">
+                    <span class="cny">总彩金池CNY :</span>
+                    <span id="jp_all">652,382,690.66</span>
+                    <p id="hlwn1"></p>
+                    <p id="hlwn2"></p>
+                </div>
+                <p class="sh-pol">实时彩金池<span class="red-bar"></span></p>
+                <a href="#" class="total-pol">+ 全部彩金池</a>
+                <div class="col_wrap">
+                    <div class="col-games">
+                        <ul>
+                            <li>
+                                <img src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/gamesite/index/fishs-flash.jpg" >
+                                <p class="cjpl-name">PT彩金池</p>
+                                <p>CNY953,322,322</p>
+                            </li>
+                            <li>
+                                <img src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/gamesite/index/mg-jackpot.jpg" >
+                                <p  class="cjpl-name">PT彩金池</p>
+                                <p>CNY953,322,322</p>
+                            </li>
+                            <li>
+                                <img src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/gamesite/index/mini-game3.jpg" >
+                                <p  class="cjpl-name">PT彩金池</p>
+                                <p>CNY953,322,322</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="fltcol2">
+                <div class="wek-list cleafix">
+                    <p class="wekwin-list">周盈利榜</p>
+                    <span class="lis-bar"></span>
+                    <p class="wekpro-list">周投注榜</p>
+                    <span class="lis-bar"></span>
+                    <p class="wekact-list">周活跃榜</p>
+                    <span class="lis-bar"></span>
+                </div>
+                <div class="user-img-list">
+                    <div class="sec">
+                        <img src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png" />
+                        <p>fd***9</p>
+                        <p>180,600元</p>
+                    </div>
+                    <div class="fir">
+                        <img src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/ag10.png" />
+                        <p>fd***9</p>
+                        <p>180,600元</p>
+                    </div>
+                    <div class="thi">
+                        <img src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png" />
+                        <p>fd***9</p>
+                        <p>180,600元</p>
+                    </div>
+                </div>
+                <div class="user-tab-list">
+                    <div class="betorwin">
+                        <div class="row-space clearfix">
+                            <p class="nun">4</p>
+                            <p class="imgvip"></p>
+                            <p class="user">fd***9</p>
+                            <p class="yingli">盈利</p>
+                            <p>75,230元</p>
+                        </div>
+                    </div>
+                    <div class="betorwin ">
+
+                            <div class="row-space clearfix">
+                                <p class="nun">5</p>
+                                <p class="imgvip"></p>
+                                <p class="user">fs***3</p>
+                                <p class="yingli">盈利</p>
+                                <p>32,340元</p>
+                            </div>
+                    </div>
+                    <div class="betorwin ">
+                            <div class="row-space clearfix">
+                                <p class="nun">6</p>
+                                <p class="imgvip"></p>
+                                <p class="user">fh***1</p>
+                                <p class="yingli">盈利</p>
+                                <p>32,340元</p>
+
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="fltcol3"></div>
+        </div>
+    </div>
+</div>
+<div class="indx_wrapper vuezone">
+    <div class="container pdtop99">
+        <div class="todays_deal">
+            <div class="tdydl_lbl">今日限时特惠</div>
+            <ul id="tdydl_menu">
+                <li class=""><a href="javascript:;" data-type="recommend">今日特别推荐<span></span></a></li>
+                <li class=""><a href="javascript:;" data-type="hot">热门游戏<span></span></a></li>
+                <li class=""><a href="javascript:;" data-type="new">最新游戏<span></span></a></li>
+                <li class="active"><a href="javascript:;" data-type="highPrize">爆机游戏<span></span></a></li>
+            </ul>
+            <a href="todays_special.htm" id="viewmore">+ 更多</a>
+            <div id="lftbx-game">
+                <div class="lgbox"><span class="lgbox_img"><div><img
+                        src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg_vip/28292.2.png"
+                        data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg_vip/28292.2.png"
+                        style="display: inline;"></div> <div class="lgbox_hvr"><span data-gameid="28292"
+                                                                                     data-seviceid="BreakAway"
+                                                                                     data-demo="1"
+                                                                                     data-gamename="Break Away"
+                                                                                     data-gameplat="MG_VIP"
+                                                                                     class="_wc cursorClass">
+								立即试玩</span> <a id="MG_VIP28292" data-gamename="Break Away" class="_sr"></a> <a
+                        id="MG_VIP28292" data-gamename="Break Away" class="_sr1"
+                        style="display: none;"></a></div></span>
+                    <div class="lgbtm_box">
+                        <div class="_lk1"><span class="blast">爆机</span> <span class="lgmn">MG_VIP</span> <span
+                                class="lgbld">疯狂曲棍球</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="_lk2">
+                            <div>
+                                <div class="_vc1">上次爆机时间<br>
+                                    <div>2017.10.25 13:29:52</div>
+                                </div>
+                                <div class="_vc2">上次爆机金额<br><span>CNY 253,461.50</span></div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="lgbox"><span class="lgbox_img"><div><img
+                        src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg_vip/44751.2.png"
+                        data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg_vip/44751.2.png"
+                        style="display: inline;"></div> <div class="lgbox_hvr"><span data-gameid="44751"
+                                                                                     data-seviceid="BasketballStar"
+                                                                                     data-demo="1"
+                                                                                     data-gamename="Basketball Star"
+                                                                                     data-gameplat="MG_VIP"
+                                                                                     class="_wc cursorClass">
+								立即试玩</span> <a id="MG_VIP44751" data-gamename="Basketball Star" class="_sr"></a> <a
+                        id="MG_VIP44751" data-gamename="Basketball Star" class="_sr1" style="display: none;"></a></div></span>
+                    <div class="lgbtm_box">
+                        <div class="_lk1"><span class="blast">爆机</span> <span class="lgmn">MG_VIP</span> <span
+                                class="lgbld">篮球巨星</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="_lk2">
+                            <div>
+                                <div class="_vc1">上次爆机时间<br>
+                                    <div>2017.10.23 23:46:53</div>
+                                </div>
+                                <div class="_vc2">上次爆机金额<br><span>CNY 295,468.00</span></div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="lgbox"><span class="lgbox_img"><div><img
+                        src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/ttg_vip/533.2.png"
+                        data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/ttg_vip/533.2.png"
+                        style="display: inline;"></div> <div class="lgbox_hvr"><span data-gameid="533" data-seviceid=""
+                                                                                     data-demo="1"
+                                                                                     data-gamename="ChilliGold"
+                                                                                     data-gameplat="TTG_VIP"
+                                                                                     class="_wc cursorClass">
+								立即试玩</span> <a id="TTG_VIP533" data-gamename="ChilliGold" class="_sr"></a> <a
+                        id="TTG_VIP533" data-gamename="ChilliGold" class="_sr1" style="display: none;"></a></div></span>
+                    <div class="lgbtm_box">
+                        <div class="_lk1"><span class="blast">爆机</span> <span class="lgmn">TTG_VIP</span> <span
+                                class="lgbld">火辣金砖</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="_lk2">
+                            <div>
+                                <div class="_vc1">上次爆机时间<br>
+                                    <div>2017.10.24 19:26:17</div>
+                                </div>
+                                <div class="_vc2">上次爆机金额<br><span>CNY 198,237.00</span></div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="lgbox"><span class="lgbox_img"><div><img
+                        src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/ttg_vip/1019.2.png"
+                        data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/ttg_vip/1019.2.png"
+                        style="display: inline;"></div> <div class="lgbox_hvr"><span data-gameid="1019" data-seviceid=""
+                                                                                     data-demo="1"
+                                                                                     data-gamename="FireGoddess"
+                                                                                     data-gameplat="TTG_VIP"
+                                                                                     class="_wc cursorClass">
+								立即试玩</span> <a id="TTG_VIP1019" data-gamename="FireGoddess" class="_sr"></a> <a
+                        id="TTG_VIP1019" data-gamename="FireGoddess" class="_sr1"
+                        style="display: none;"></a></div></span>
+                    <div class="lgbtm_box">
+                        <div class="_lk1"><span class="blast">爆机</span> <span class="lgmn">TTG_VIP</span> <span
+                                class="lgbld">美女火神</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="_lk2">
+                            <div>
+                                <div class="_vc1">上次爆机时间<br>
+                                    <div>2017.10.16 22:49:32</div>
+                                </div>
+                                <div class="_vc2">上次爆机金额<br><span>CNY 186,467.00</span></div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="rhtbx-event">
+                <div id="rhtbx-header"><span id="lblgo"></span>
+                    每时每刻
+                    <a href="every_moments.htm" id="rhtbx-vmr">+ 更多</a></div>
+                <div id="rhtbx-body" data-cycle-fx="carousel" data-cycle-timeout="3000" data-cycle-carousel-visible="4"
+                     data-cycle-slides="> div.bdyrow" data-cycle-next="#arrwdown" data-cycle-pause-on-hover="true"
+                     data-cycle-carousel-vertical="true" data-cycle-auto-height="false" class=""
+                     style="position: relative; overflow: hidden; height: 408px;">
+                    <div class="cycle-carousel-wrap"
+                         style="margin: 0px; padding: 0px; top: -7946px; left: 0px; position: absolute;">
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: visible;">
+                            <span class="crlimg">	<img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/anime11.png"> </span>
+                            <div class="fscon">f***0p <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：4,500元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:19:01</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261519L001',1,0);"
+                                                   class="_hrt1 A03021710261519L0011">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261519L001',2,0);"
+                                    class="_hrt2 A03021710261519L0012">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 99; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-6.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            还在为曾经玩过的游戏喜欢又找不到而烦恼吗？小编来分享：游戏图标左上角点击小小红心即可收藏，登录账号点击收藏即可查看到个人私人定制游戏厅。赶紧利用起来吧！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login1',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/2c76cfb22d74bc9f7ea5afceb10c2bdb.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login1',1);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/5628b6777b2aad59b45f72640cec8725.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.04 17:09:33</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('876',1,3);" class="_hrt1 8761">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('876',2,1);" class="_hrt2 8762">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 97; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> TTG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜ff***6在<a href="javascript:signToGame('526','TTG','捕蝇大赛')"> 捕蝇大赛</a>喜中 15175.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('526TTG',1,0);"
+                                                   class="_hrt1 526TTG1">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('526TTG',2,0);" class="_hrt2 526TTG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 96; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/ag16.png"> </span>
+                            <div class="fscon">f***55 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：200元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 12:46:55</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710261246L003',1,0);"
+                                                   class="_hrt1 A03011710261246L0031">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710261246L003',2,0);"
+                                    class="_hrt2 A03011710261246L0032">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 95; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-1.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            百倍大赢家，爆机天天有！网站首页大奖重现点击更多，可以查看过往大神们的成就以及经验分享，有总结才有收获！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login4',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/0c6155efed4b15ade79d249c8295b2e1.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.18 15:16:08</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('1016',1,0);" class="_hrt1 10161">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('1016',2,0);" class="_hrt2 10162">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 94; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-4.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            TTG、MG最近上线几款新游戏【财神黄金、表情金币。。等等】，小编玩的很嗨！推荐小伙伴们感受下！不用客气，请叫我雷锋！PS：选择电子游戏厅，前面的都是新款游戏哦！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login5',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/6e37800437ce27640cf1f1f045c08a33.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login5',1);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/e4cd603992039f641de9935c015b6dae.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login5',2);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/3ecb81fac4429d62cdfe49d5b8c2208e.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.11 12:17:26</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('938',1,0);" class="_hrt1 9381">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('938',2,0);" class="_hrt2 9382">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 93; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-5.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            送手机iPhone
+                            X活动已经圆满结束，小伙伴们可以通过活动页面登录查看个人中奖信息，同时网站论坛也已经更新所有中奖名单，大家可以抬起小板凳围观啦！http://bbsag8810.com/thread-167694-1-1.html
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login6',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/586c521d2ebcfd8f555c559f820acbba.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.11 10:00:00</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('937',1,1);" class="_hrt1 9371">1人</a>
+                                <span></span> <a href="javascript:stamp_paise('937',2,0);" class="_hrt2 9372">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 92; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/ag16.png"> </span>
+                            <div class="fscon">f***55 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：700元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 12:18:56</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710261218L020',1,0);"
+                                                   class="_hrt1 A03011710261218L0201">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710261218L020',2,0);"
+                                    class="_hrt2 A03011710261218L0202">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 91; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fr***6在<a href="javascript:signToGame('44751','MG','篮球巨星')"> 篮球巨星</a>喜中 6250.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('44751MG',1,0);" class="_hrt1 44751MG1">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('44751MG',2,0);"
+                                                 class="_hrt2 44751MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 90; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-8.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            圆圆明月半空高，暖暖情意荡心潮。已是中秋佳节到，喝茶赏月品佳肴。值此佳节祝各位老板阖家欢乐！幸福美满！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login9',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/2bed718f81e786aea3e00fc576c39dc5.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.04 10:16:18</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('818',1,2);" class="_hrt1 8181">2人</a>
+                                <span></span> <a href="javascript:stamp_paise('818',2,1);" class="_hrt2 8182">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 89; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/movie9.png"> </span>
+                            <div class="fscon">f***22 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：200元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:03:15</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261503L003',1,0);"
+                                                   class="_hrt1 A03021710261503L0031">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261503L003',2,0);"
+                                    class="_hrt2 A03021710261503L0032">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 88; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-10.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            号外！号外！广受玩家喜欢的捕鱼又出新作啦！多人版上线，捕鱼场景多人共享，精彩刺激。3D画面真实精致，炫酷炮台，全新的体验和视觉享受，赶紧感受一下吧！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login11',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/a370dc2888d87fb7a6bc901caf7c9f10.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.09.28 15:10:18</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('795',1,1);" class="_hrt1 7951">1人</a>
+                                <span></span> <a href="javascript:stamp_paise('795',2,1);" class="_hrt2 7952">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 87; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-3.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            最近有不少老板反馈说对网站的维护信息不清楚，导致游戏时突然额度不见了而影响心情。小编建议可以培养打开网站查看公告的习惯—So easy！以后再也不用担心老板们的游戏了！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login12',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/600480f3aceeef31dcb93ac703f73dae.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.11 13:57:52</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('939',1,0);" class="_hrt1 9391">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('939',2,0);" class="_hrt2 9392">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 86; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fz***1在<a href="javascript:signToGame('44751','MG','篮球巨星')"> 篮球巨星</a>喜中 5080.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-22</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('44751MG',1,0);" class="_hrt1 44751MG1">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('44751MG',2,0);"
+                                                 class="_hrt2 44751MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 85; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fp***p在<a href="javascript:signToGame('44751','MG','篮球巨星')"> 篮球巨星</a>喜中 5604.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('44751MG',1,0);" class="_hrt1 44751MG1">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('44751MG',2,0);"
+                                                 class="_hrt2 44751MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 84; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-2.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            各位老板，活动奖品已经确认最终名单，多次无法联系到的视为自动放弃，小二正在快马加鞭购买以及安排邮寄，请耐心等待下哦！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login15',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/871594668e01cc76fcd813795fa04a03.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.18 12:37:34</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('1015',1,0);" class="_hrt1 10151">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('1015',2,0);" class="_hrt2 10152">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 83; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-7.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            国庆中秋小长假，可以外出感受人山人海的热闹，亦可在家或者闲暇之余游戏小试牛刀，英雄联盟上线以来火爆程度高居不下，等你来战！电脑、手机随时参与，走到哪“赚”到哪！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login16',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/d0fce493a22a27c00852b9dccc5bab1e.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login16',1);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/88704daf0783e8946eaeee9ce769cdf3.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.04 14:47:14</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('823',1,3);" class="_hrt1 8231">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('823',2,1);" class="_hrt2 8232">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 82; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-9.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            捕鱼王庆中秋，打鱼就有机会获得场景礼包奖金，离29号结束还有明天最后一天，进入游戏厅即可查看到活动。也提前预祝各位老板节日快乐！对了~国庆长假马上就到了，你的行程想好了吗？
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login17',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/a6e7c729f5f503aff9ef77c2195199eb.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.09.28 16:03:05</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('796',1,3);" class="_hrt1 7961">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('796',2,0);" class="_hrt2 7962">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 81; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png"> </span>
+                            <div class="fscon">f***86 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：5,000元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:14:20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261514L002',1,0);"
+                                                   class="_hrt1 A03021710261514L0021">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261514L002',2,0);"
+                                    class="_hrt2 A03021710261514L0022">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 80; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png"> </span>
+                            <div class="fscon">f***77 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：400元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:14:28</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261514L005',1,0);"
+                                                   class="_hrt1 A03021710261514L0051">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261514L005',2,0);"
+                                    class="_hrt2 A03021710261514L0052">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 79; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fa***8在<a href="javascript:signToGame('8685','MG','疯狂曲棍球')"> 疯狂曲棍球</a>喜中 6289.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-21</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('8685MG',1,1);"
+                                                   class="_hrt1 8685MG1">1人</a> <span></span> <a
+                                    href="javascript:stamp_paise('8685MG',2,0);" class="_hrt2 8685MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 78; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png"> </span>
+                            <div class="fscon">f***88 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：600元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.25 20:48:54</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710252048G001',1,0);"
+                                                   class="_hrt1 A03011710252048G0011">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710252048G001',2,0);"
+                                    class="_hrt2 A03011710252048G0012">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 77; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-0.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            妖魔鬼怪即将横行，不给糖就捣蛋。搜索万圣节，电游同款老虎机陪你狂欢！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login22',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/064468ecf71ee919bf78f16fe02e70cb.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.25 12:25:16</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('1031',1,0);" class="_hrt1 10311">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('1031',2,0);" class="_hrt2 10312">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 76; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/anime22.png"> </span>
+                            <div class="fscon">f***wm <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：50元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 13:44:26</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710261344L003',1,0);"
+                                                   class="_hrt1 A03011710261344L0031">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710261344L003',2,0);"
+                                    class="_hrt2 A03011710261344L0032">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 75; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-11.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            英雄联盟电游版，环亚电游独家呈现，无论”单排“还是”双排“，亦或是”多排“。热血开黑！猥琐发育，别浪！要稳住，我们能赢！小贴士：首页最受欢迎游戏NO.1，电子游戏TTG第一个就是唷。
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login24',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/e179c9762e81c5365fcb0869658d2f6f.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.09.27 18:37:40</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('794',1,3);" class="_hrt1 7941">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('794',2,1);" class="_hrt2 7942">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 74; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> TTG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fw***4在<a href="javascript:signToGame('14483','TTG','精灵翅膀')"> 精灵翅膀</a>喜中 14900.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('14483TTG',1,0);"
+                                                   class="_hrt1 14483TTG1">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('14483TTG',2,0);" class="_hrt2 14483TTG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: visible;">
+                            <span class="crlimg">	<img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/anime11.png"> </span>
+                            <div class="fscon">f***0p <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：4,500元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:19:01</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261519L001',1,0);"
+                                                   class="_hrt1 A03021710261519L0011">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261519L001',2,0);"
+                                    class="_hrt2 A03021710261519L0012">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 99; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-6.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            还在为曾经玩过的游戏喜欢又找不到而烦恼吗？小编来分享：游戏图标左上角点击小小红心即可收藏，登录账号点击收藏即可查看到个人私人定制游戏厅。赶紧利用起来吧！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login1',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/2c76cfb22d74bc9f7ea5afceb10c2bdb.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login1',1);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/5628b6777b2aad59b45f72640cec8725.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.04 17:09:33</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('876',1,3);" class="_hrt1 8761">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('876',2,1);" class="_hrt2 8762">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 97; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> TTG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜ff***6在<a href="javascript:signToGame('526','TTG','捕蝇大赛')"> 捕蝇大赛</a>喜中 15175.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('526TTG',1,0);"
+                                                   class="_hrt1 526TTG1">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('526TTG',2,0);" class="_hrt2 526TTG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 96; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/ag16.png"> </span>
+                            <div class="fscon">f***55 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：200元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 12:46:55</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710261246L003',1,0);"
+                                                   class="_hrt1 A03011710261246L0031">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710261246L003',2,0);"
+                                    class="_hrt2 A03011710261246L0032">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 95; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-1.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            百倍大赢家，爆机天天有！网站首页大奖重现点击更多，可以查看过往大神们的成就以及经验分享，有总结才有收获！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login4',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/0c6155efed4b15ade79d249c8295b2e1.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.18 15:16:08</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('1016',1,0);" class="_hrt1 10161">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('1016',2,0);" class="_hrt2 10162">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 94; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-4.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            TTG、MG最近上线几款新游戏【财神黄金、表情金币。。等等】，小编玩的很嗨！推荐小伙伴们感受下！不用客气，请叫我雷锋！PS：选择电子游戏厅，前面的都是新款游戏哦！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login5',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/6e37800437ce27640cf1f1f045c08a33.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login5',1);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/e4cd603992039f641de9935c015b6dae.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login5',2);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/3ecb81fac4429d62cdfe49d5b8c2208e.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.11 12:17:26</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('938',1,0);" class="_hrt1 9381">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('938',2,0);" class="_hrt2 9382">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 93; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-5.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            送手机iPhone
+                            X活动已经圆满结束，小伙伴们可以通过活动页面登录查看个人中奖信息，同时网站论坛也已经更新所有中奖名单，大家可以抬起小板凳围观啦！http://bbsag8810.com/thread-167694-1-1.html
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login6',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/586c521d2ebcfd8f555c559f820acbba.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.11 10:00:00</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('937',1,1);" class="_hrt1 9371">1人</a>
+                                <span></span> <a href="javascript:stamp_paise('937',2,0);" class="_hrt2 9372">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 92; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/ag16.png"> </span>
+                            <div class="fscon">f***55 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：700元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 12:18:56</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710261218L020',1,0);"
+                                                   class="_hrt1 A03011710261218L0201">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710261218L020',2,0);"
+                                    class="_hrt2 A03011710261218L0202">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 91; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fr***6在<a href="javascript:signToGame('44751','MG','篮球巨星')"> 篮球巨星</a>喜中 6250.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('44751MG',1,0);" class="_hrt1 44751MG1">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('44751MG',2,0);"
+                                                 class="_hrt2 44751MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 90; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-8.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            圆圆明月半空高，暖暖情意荡心潮。已是中秋佳节到，喝茶赏月品佳肴。值此佳节祝各位老板阖家欢乐！幸福美满！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login9',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/2bed718f81e786aea3e00fc576c39dc5.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.04 10:16:18</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('818',1,2);" class="_hrt1 8181">2人</a>
+                                <span></span> <a href="javascript:stamp_paise('818',2,1);" class="_hrt2 8182">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 89; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/movie9.png"> </span>
+                            <div class="fscon">f***22 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：200元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:03:15</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261503L003',1,0);"
+                                                   class="_hrt1 A03021710261503L0031">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261503L003',2,0);"
+                                    class="_hrt2 A03021710261503L0032">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 88; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-10.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            号外！号外！广受玩家喜欢的捕鱼又出新作啦！多人版上线，捕鱼场景多人共享，精彩刺激。3D画面真实精致，炫酷炮台，全新的体验和视觉享受，赶紧感受一下吧！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login11',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/a370dc2888d87fb7a6bc901caf7c9f10.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.09.28 15:10:18</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('795',1,1);" class="_hrt1 7951">1人</a>
+                                <span></span> <a href="javascript:stamp_paise('795',2,1);" class="_hrt2 7952">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 87; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-3.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            最近有不少老板反馈说对网站的维护信息不清楚，导致游戏时突然额度不见了而影响心情。小编建议可以培养打开网站查看公告的习惯—So easy！以后再也不用担心老板们的游戏了！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login12',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/600480f3aceeef31dcb93ac703f73dae.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.11 13:57:52</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('939',1,0);" class="_hrt1 9391">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('939',2,0);" class="_hrt2 9392">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 86; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fz***1在<a href="javascript:signToGame('44751','MG','篮球巨星')"> 篮球巨星</a>喜中 5080.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-22</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('44751MG',1,0);" class="_hrt1 44751MG1">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('44751MG',2,0);"
+                                                 class="_hrt2 44751MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 85; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fp***p在<a href="javascript:signToGame('44751','MG','篮球巨星')"> 篮球巨星</a>喜中 5604.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('44751MG',1,0);" class="_hrt1 44751MG1">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('44751MG',2,0);"
+                                                 class="_hrt2 44751MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 84; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-2.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            各位老板，活动奖品已经确认最终名单，多次无法联系到的视为自动放弃，小二正在快马加鞭购买以及安排邮寄，请耐心等待下哦！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login15',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/871594668e01cc76fcd813795fa04a03.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.18 12:37:34</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('1015',1,0);" class="_hrt1 10151">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('1015',2,0);" class="_hrt2 10152">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 83; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-7.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            国庆中秋小长假，可以外出感受人山人海的热闹，亦可在家或者闲暇之余游戏小试牛刀，英雄联盟上线以来火爆程度高居不下，等你来战！电脑、手机随时参与，走到哪“赚”到哪！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login16',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/d0fce493a22a27c00852b9dccc5bab1e.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login16',1);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/88704daf0783e8946eaeee9ce769cdf3.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.04 14:47:14</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('823',1,3);" class="_hrt1 8231">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('823',2,1);" class="_hrt2 8232">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 82; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-9.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            捕鱼王庆中秋，打鱼就有机会获得场景礼包奖金，离29号结束还有明天最后一天，进入游戏厅即可查看到活动。也提前预祝各位老板节日快乐！对了~国庆长假马上就到了，你的行程想好了吗？
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login17',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/a6e7c729f5f503aff9ef77c2195199eb.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.09.28 16:03:05</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('796',1,3);" class="_hrt1 7961">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('796',2,0);" class="_hrt2 7962">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 81; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png"> </span>
+                            <div class="fscon">f***86 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：5,000元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:14:20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261514L002',1,0);"
+                                                   class="_hrt1 A03021710261514L0021">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261514L002',2,0);"
+                                    class="_hrt2 A03021710261514L0022">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 80; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png"> </span>
+                            <div class="fscon">f***77 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：400元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:14:28</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261514L005',1,0);"
+                                                   class="_hrt1 A03021710261514L0051">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261514L005',2,0);"
+                                    class="_hrt2 A03021710261514L0052">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 79; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fa***8在<a href="javascript:signToGame('8685','MG','疯狂曲棍球')"> 疯狂曲棍球</a>喜中 6289.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-21</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('8685MG',1,1);"
+                                                   class="_hrt1 8685MG1">1人</a> <span></span> <a
+                                    href="javascript:stamp_paise('8685MG',2,0);" class="_hrt2 8685MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 78; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png"> </span>
+                            <div class="fscon">f***88 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：600元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.25 20:48:54</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710252048G001',1,0);"
+                                                   class="_hrt1 A03011710252048G0011">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710252048G001',2,0);"
+                                    class="_hrt2 A03011710252048G0012">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 77; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-0.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            妖魔鬼怪即将横行，不给糖就捣蛋。搜索万圣节，电游同款老虎机陪你狂欢！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login22',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/064468ecf71ee919bf78f16fe02e70cb.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.25 12:25:16</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('1031',1,0);" class="_hrt1 10311">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('1031',2,0);" class="_hrt2 10312">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 76; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/anime22.png"> </span>
+                            <div class="fscon">f***wm <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：50元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 13:44:26</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710261344L003',1,0);"
+                                                   class="_hrt1 A03011710261344L0031">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710261344L003',2,0);"
+                                    class="_hrt2 A03011710261344L0032">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 75; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-11.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            英雄联盟电游版，环亚电游独家呈现，无论”单排“还是”双排“，亦或是”多排“。热血开黑！猥琐发育，别浪！要稳住，我们能赢！小贴士：首页最受欢迎游戏NO.1，电子游戏TTG第一个就是唷。
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login24',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/e179c9762e81c5365fcb0869658d2f6f.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.09.27 18:37:40</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('794',1,3);" class="_hrt1 7941">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('794',2,1);" class="_hrt2 7942">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide cycle-slide-active"
+                             style="position: static; top: 0px; left: 0px; z-index: 74; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> TTG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fw***4在<a href="javascript:signToGame('14483','TTG','精灵翅膀')"> 精灵翅膀</a>喜中 14900.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('14483TTG',1,0);"
+                                                   class="_hrt1 14483TTG1">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('14483TTG',2,0);" class="_hrt2 14483TTG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: visible;">
+                            <span class="crlimg">	<img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/anime11.png"> </span>
+                            <div class="fscon">f***0p <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：4,500元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:19:01</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261519L001',1,0);"
+                                                   class="_hrt1 A03021710261519L0011">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261519L001',2,0);"
+                                    class="_hrt2 A03021710261519L0012">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 99; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-6.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            还在为曾经玩过的游戏喜欢又找不到而烦恼吗？小编来分享：游戏图标左上角点击小小红心即可收藏，登录账号点击收藏即可查看到个人私人定制游戏厅。赶紧利用起来吧！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login1',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/2c76cfb22d74bc9f7ea5afceb10c2bdb.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login1',1);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/5628b6777b2aad59b45f72640cec8725.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.04 17:09:33</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('876',1,3);" class="_hrt1 8761">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('876',2,1);" class="_hrt2 8762">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 97; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> TTG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜ff***6在<a href="javascript:signToGame('526','TTG','捕蝇大赛')"> 捕蝇大赛</a>喜中 15175.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('526TTG',1,0);"
+                                                   class="_hrt1 526TTG1">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('526TTG',2,0);" class="_hrt2 526TTG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 96; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/ag16.png"> </span>
+                            <div class="fscon">f***55 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：200元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 12:46:55</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710261246L003',1,0);"
+                                                   class="_hrt1 A03011710261246L0031">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710261246L003',2,0);"
+                                    class="_hrt2 A03011710261246L0032">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 95; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-1.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            百倍大赢家，爆机天天有！网站首页大奖重现点击更多，可以查看过往大神们的成就以及经验分享，有总结才有收获！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login4',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/0c6155efed4b15ade79d249c8295b2e1.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.18 15:16:08</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('1016',1,0);" class="_hrt1 10161">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('1016',2,0);" class="_hrt2 10162">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 94; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-4.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            TTG、MG最近上线几款新游戏【财神黄金、表情金币。。等等】，小编玩的很嗨！推荐小伙伴们感受下！不用客气，请叫我雷锋！PS：选择电子游戏厅，前面的都是新款游戏哦！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login5',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/6e37800437ce27640cf1f1f045c08a33.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login5',1);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/e4cd603992039f641de9935c015b6dae.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login5',2);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/3ecb81fac4429d62cdfe49d5b8c2208e.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.11 12:17:26</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('938',1,0);" class="_hrt1 9381">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('938',2,0);" class="_hrt2 9382">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 93; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-5.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            送手机iPhone
+                            X活动已经圆满结束，小伙伴们可以通过活动页面登录查看个人中奖信息，同时网站论坛也已经更新所有中奖名单，大家可以抬起小板凳围观啦！http://bbsag8810.com/thread-167694-1-1.html
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login6',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/586c521d2ebcfd8f555c559f820acbba.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.11 10:00:00</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('937',1,1);" class="_hrt1 9371">1人</a>
+                                <span></span> <a href="javascript:stamp_paise('937',2,0);" class="_hrt2 9372">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 92; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/ag16.png"> </span>
+                            <div class="fscon">f***55 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：700元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 12:18:56</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710261218L020',1,0);"
+                                                   class="_hrt1 A03011710261218L0201">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710261218L020',2,0);"
+                                    class="_hrt2 A03011710261218L0202">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 91; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fr***6在<a href="javascript:signToGame('44751','MG','篮球巨星')"> 篮球巨星</a>喜中 6250.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('44751MG',1,0);" class="_hrt1 44751MG1">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('44751MG',2,0);"
+                                                 class="_hrt2 44751MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 90; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-8.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            圆圆明月半空高，暖暖情意荡心潮。已是中秋佳节到，喝茶赏月品佳肴。值此佳节祝各位老板阖家欢乐！幸福美满！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login9',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/2bed718f81e786aea3e00fc576c39dc5.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.04 10:16:18</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('818',1,2);" class="_hrt1 8181">2人</a>
+                                <span></span> <a href="javascript:stamp_paise('818',2,1);" class="_hrt2 8182">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 89; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/movie9.png"> </span>
+                            <div class="fscon">f***22 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：200元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:03:15</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261503L003',1,0);"
+                                                   class="_hrt1 A03021710261503L0031">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261503L003',2,0);"
+                                    class="_hrt2 A03021710261503L0032">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 88; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-10.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            号外！号外！广受玩家喜欢的捕鱼又出新作啦！多人版上线，捕鱼场景多人共享，精彩刺激。3D画面真实精致，炫酷炮台，全新的体验和视觉享受，赶紧感受一下吧！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login11',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/a370dc2888d87fb7a6bc901caf7c9f10.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.09.28 15:10:18</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('795',1,1);" class="_hrt1 7951">1人</a>
+                                <span></span> <a href="javascript:stamp_paise('795',2,1);" class="_hrt2 7952">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 87; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-3.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            最近有不少老板反馈说对网站的维护信息不清楚，导致游戏时突然额度不见了而影响心情。小编建议可以培养打开网站查看公告的习惯—So easy！以后再也不用担心老板们的游戏了！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login12',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/600480f3aceeef31dcb93ac703f73dae.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.11 13:57:52</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('939',1,0);" class="_hrt1 9391">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('939',2,0);" class="_hrt2 9392">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 86; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fz***1在<a href="javascript:signToGame('44751','MG','篮球巨星')"> 篮球巨星</a>喜中 5080.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-22</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('44751MG',1,0);" class="_hrt1 44751MG1">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('44751MG',2,0);"
+                                                 class="_hrt2 44751MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 85; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fp***p在<a href="javascript:signToGame('44751','MG','篮球巨星')"> 篮球巨星</a>喜中 5604.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('44751MG',1,0);" class="_hrt1 44751MG1">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('44751MG',2,0);"
+                                                 class="_hrt2 44751MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 84; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-2.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            各位老板，活动奖品已经确认最终名单，多次无法联系到的视为自动放弃，小二正在快马加鞭购买以及安排邮寄，请耐心等待下哦！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login15',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/871594668e01cc76fcd813795fa04a03.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.18 12:37:34</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('1015',1,0);" class="_hrt1 10151">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('1015',2,0);" class="_hrt2 10152">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 83; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-7.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            国庆中秋小长假，可以外出感受人山人海的热闹，亦可在家或者闲暇之余游戏小试牛刀，英雄联盟上线以来火爆程度高居不下，等你来战！电脑、手机随时参与，走到哪“赚”到哪！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login16',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/d0fce493a22a27c00852b9dccc5bab1e.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a><a href="javascript:showimage('login16',1);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/88704daf0783e8946eaeee9ce769cdf3.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.04 14:47:14</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('823',1,3);" class="_hrt1 8231">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('823',2,1);" class="_hrt2 8232">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 82; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-9.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            捕鱼王庆中秋，打鱼就有机会获得场景礼包奖金，离29号结束还有明天最后一天，进入游戏厅即可查看到活动。也提前预祝各位老板节日快乐！对了~国庆长假马上就到了，你的行程想好了吗？
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login17',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/a6e7c729f5f503aff9ef77c2195199eb.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.09.28 16:03:05</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('796',1,3);" class="_hrt1 7961">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('796',2,0);" class="_hrt2 7962">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 81; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png"> </span>
+                            <div class="fscon">f***86 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：5,000元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:14:20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261514L002',1,0);"
+                                                   class="_hrt1 A03021710261514L0021">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261514L002',2,0);"
+                                    class="_hrt2 A03021710261514L0022">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 80; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png"> </span>
+                            <div class="fscon">f***77 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功取款：400元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 15:14:28</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03021710261514L005',1,0);"
+                                                   class="_hrt1 A03021710261514L0051">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03021710261514L005',2,0);"
+                                    class="_hrt2 A03021710261514L0052">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 79; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> MG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fa***8在<a href="javascript:signToGame('8685','MG','疯狂曲棍球')"> 疯狂曲棍球</a>喜中 6289.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-21</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('8685MG',1,1);"
+                                                   class="_hrt1 8685MG1">1人</a> <span></span> <a
+                                    href="javascript:stamp_paise('8685MG',2,0);" class="_hrt2 8685MG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 78; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/1.png"> </span>
+                            <div class="fscon">f***88 <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：600元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.25 20:48:54</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710252048G001',1,0);"
+                                                   class="_hrt1 A03011710252048G0011">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710252048G001',2,0);"
+                                    class="_hrt2 A03011710252048G0012">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 77; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-0.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            妖魔鬼怪即将横行，不给糖就捣蛋。搜索万圣节，电游同款老虎机陪你狂欢！
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login22',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg/064468ecf71ee919bf78f16fe02e70cb.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.10.25 12:25:16</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('1031',1,0);" class="_hrt1 10311">0人</a>
+                                <span></span> <a href="javascript:stamp_paise('1031',2,0);" class="_hrt2 10312">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 76; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/anime22.png"> </span>
+                            <div class="fscon">f***wm <span class="lvl1"></span>
+                                <div class="clear"></div>
+                            </div>
+                            成功存款：50元!
+                            <div class="clear"></div>
+                            <span class="graydate">2017.10.26 13:44:26</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('A03011710261344L003',1,0);"
+                                                   class="_hrt1 A03011710261344L0031">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('A03011710261344L003',2,0);"
+                                    class="_hrt2 A03011710261344L0032">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 75; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/_promo/publishMsg-11.jpg?1508913410"> </span>
+                            <div class="fscon">小环
+                                <div class="clear"></div>
+                            </div>
+                            英雄联盟电游版，环亚电游独家呈现，无论”单排“还是”双排“，亦或是”多排“。热血开黑！猥琐发育，别浪！要稳住，我们能赢！小贴士：首页最受欢迎游戏NO.1，电子游戏TTG第一个就是唷。
+                            <div class="clear"></div>
+                            <div><a href="javascript:showimage('login24',0);" class="docu_img imgset1"> <img
+                                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/publishMsg1/e179c9762e81c5365fcb0869658d2f6f.jpg">
+                                <div class="docu_hvr"><span></span></div>
+                            </a></div>
+                            <span class="graydate">2017.09.27 18:37:40</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('794',1,3);" class="_hrt1 7941">3人</a>
+                                <span></span> <a href="javascript:stamp_paise('794',2,1);" class="_hrt2 7942">1人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bdyrow cycle-slide"
+                             style="position: static; top: 0px; left: 0px; z-index: 74; display: block;"><span
+                                class="crlimg">	<img
+                                src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/__images/headshot/boss.png"> </span>
+                            <div class="fscon"> TTG
+                                <div class="clear"></div>
+                            </div>
+                            恭喜fw***4在<a href="javascript:signToGame('14483','TTG','精灵翅膀')"> 精灵翅膀</a>喜中 14900.00 元
+                            <div class="clear"></div>
+                            <span class="graydate">2017-10-20</span>
+                            <div class="hrtcon"><a href="javascript:stamp_paise('14483TTG',1,0);"
+                                                   class="_hrt1 14483TTG1">0人</a> <span></span> <a
+                                    href="javascript:stamp_paise('14483TTG',2,0);" class="_hrt2 14483TTG2">0人</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="bdyln"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="btmfthr"></div>
+                <div id="arrwdown"></div>
+                <div class="clear"></div>
+            </div>
+            <div class="dotline"></div>
+            <div class="clear"></div>
+        </div>
+        <div class="popular_games">
+            <div class="ppl_tplbl">最受玩家欢迎的游戏</div>
+            <div class="ppl_box"><span class="pplimg"><div><img
+                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/ttg/526.2.png"
+                    data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/ttg/526.2.png"
+                    style="display: inline;"></div> <div class="pplbox_hvr"><div data-gameid="526"
+                                                                                 data-seviceid="BeautifulBones"
+                                                                                 data-demo="1"
+                                                                                 data-gamename="FrogsNFlies"
+                                                                                 data-gameplat="TTG"
+                                                                                 class="_wc cursorClass">立即试玩</div> <a
+                    id="TTG526" data-gamename="FrogsNFlies" class="_sr"></a> <a id="TTG526" data-gamename="FrogsNFlies"
+                                                                                class="_sr1" style="display: none;"></a></div></span>
+                <div class="ppl_dtls"><span class="ppl_lbl"><span>捕蝇大赛</span>&nbsp;&nbsp;<div
+                        class="ppl_blast">TOP1</div> <div class="clear"></div></span> <span
+                        class="ppl_bltx"><span>27802</span>人玩过</span>
+                    <div game-template-id-description="" class="TTG526">
+                        TTG著名游戏，关注度居高不下；1024种制胜之道，玩家回报率高达96.41%！恶趣味控玩家最爱，返奖率最高，不信就去环亚论坛搜索下，看多少会员净赚10万+并取款的。
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="ppl_box"><span class="pplimg"><div><img
+                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/pt/dnr.2.png"
+                    data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/pt/dnr.2.png"
+                    style="display: inline;"></div> <div class="pplbox_hvr"><div data-gameid="dnr" data-seviceid=""
+                                                                                 data-demo="1"
+                                                                                 data-gamename="Dolphin Reef"
+                                                                                 data-gameplat="PT"
+                                                                                 class="_wc cursorClass">立即试玩</div> <a
+                    id="PTdnr" data-gamename="Dolphin Reef" class="_sr"></a> <a id="PTdnr" data-gamename="Dolphin Reef"
+                                                                                class="_sr1" style="display: none;"></a></div></span>
+                <div class="ppl_dtls"><span class="ppl_lbl"><span>海豚礁堡</span>&nbsp;&nbsp;<div
+                        class="ppl_blast">TOP2</div> <div class="clear"></div></span> <span
+                        class="ppl_bltx"><span>28536</span>人玩过</span>
+                    <div game-template-id-description="" class="PTdnr">
+                        海豚宝宝聪明可爱，两只海豚即可触发免费游戏，还能拓展转轴持续到免费游戏结束。旋转跳跃放佛置身海洋馆欣赏精彩表演，还有赌博小游戏有机会实现本金快速翻倍。
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="ppl_box"><span class="pplimg"><div><img
+                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/pt/bfb.2.png"
+                    data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/pt/bfb.2.png"
+                    style="display: inline;"></div> <div class="pplbox_hvr"><div data-gameid="bfb" data-seviceid=""
+                                                                                 data-demo="1"
+                                                                                 data-gamename="Buffalo Blitz"
+                                                                                 data-gameplat="PT"
+                                                                                 class="_wc cursorClass">立即试玩</div> <a
+                    id="PTbfb" data-gamename="Buffalo Blitz" class="_sr"></a> <a id="PTbfb"
+                                                                                 data-gamename="Buffalo Blitz"
+                                                                                 class="_sr1"
+                                                                                 style="display: none;"></a></div></span>
+                <div class="ppl_dtls"><span class="ppl_lbl"><span>野牛闪电战</span>&nbsp;&nbsp;<div
+                        class="ppl_blast">TOP3</div> <div class="clear"></div></span> <span
+                        class="ppl_bltx"><span>26435</span>人玩过</span>
+                    <div game-template-id-description="" class="PTbfb">
+                        疯狂野牛电光火石的刺激，4096种赔付方式，有机会触发高达100次免费游戏，出现钻石奖金随机翻倍，更有机会无限额外叠加旋转次数，跟着野牛狂奔，根本停不下来！
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="ppl_box  last"><span class="pplimg"><div><img
+                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/pt/hlf2.2.png"
+                    data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/pt/hlf2.2.png"
+                    style="display: inline;"></div> <div class="pplbox_hvr"><div data-gameid="hlf2" data-seviceid=""
+                                                                                 data-demo="1"
+                                                                                 data-gamename="Halloween Fortune II"
+                                                                                 data-gameplat="PT"
+                                                                                 class="_wc cursorClass">立即试玩</div> <a
+                    id="PThlf2" data-gamename="Halloween Fortune II" class="_sr"></a> <a id="PThlf2"
+                                                                                         data-gamename="Halloween Fortune II"
+                                                                                         class="_sr1"
+                                                                                         style="display: none;"></a></div></span>
+                <div class="ppl_dtls"><span class="ppl_lbl"><span>万圣节财富2</span>&nbsp;&nbsp;<div
+                        class="ppl_blast">TOP4</div> <div class="clear"></div></span> <span
+                        class="ppl_bltx"><span>26331</span>人玩过</span>
+                    <div game-template-id-description="" class="PThlf2">
+                        狂欢因为寂寞？压抑才是害怕！群魔乱舞、南瓜咧齿，激情只燃烧一瞬。触发免费游戏带有递增翻倍乘数只增不减，百搭南瓜锁轴固定玩转，万圣节的夜紧张刺激！
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="ppl_box"><span class="pplimg"><div><img
+                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/ttg/1088.2.png"
+                    data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/ttg/1088.2.png"
+                    style="display: inline;"></div> <div class="pplbox_hvr"><div data-gameid="1088" data-seviceid=""
+                                                                                 data-demo="1"
+                                                                                 data-gamename="LeagueOfChampionsAG88"
+                                                                                 data-gameplat="TTG"
+                                                                                 class="_wc cursorClass">立即试玩</div> <a
+                    id="TTG1088" data-gamename="LeagueOfChampionsAG88" class="_sr"></a> <a id="TTG1088"
+                                                                                           data-gamename="LeagueOfChampionsAG88"
+                                                                                           class="_sr1"
+                                                                                           style="display: none;"></a></div></span>
+                <div class="ppl_dtls"><span class="ppl_lbl"><span>英雄联盟 AG88</span>&nbsp;&nbsp;<div class="ppl_blast">TOP5</div> <div
+                        class="clear"></div></span> <span class="ppl_bltx"><span>33230</span>人玩过</span>
+                    <div game-template-id-description="" class="TTG1088">
+                        如何面对，曾一起开黑的日子。现在剩下我独撸，如何用心声一一讲你知。从来没人提醒我，唯一你告我上miss，有你有我有情有生有死有义。多少gank都愿闯，只因彼此不死的目光…
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="ppl_box"><span class="pplimg"><div><img
+                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg/67812.2.png"
+                    data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg/67812.2.png"
+                    style="display: inline;"></div> <div class="pplbox_hvr"><div data-gameid="67812"
+                                                                                 data-seviceid="Tarzan" data-demo="1"
+                                                                                 data-gamename="Tarzan"
+                                                                                 data-gameplat="MG"
+                                                                                 class="_wc cursorClass">立即试玩</div> <a
+                    id="MG67812" data-gamename="Tarzan" class="_sr"></a> <a id="MG67812" data-gamename="Tarzan"
+                                                                            class="_sr1"
+                                                                            style="display: none;"></a></div></span>
+                <div class="ppl_dtls"><span class="ppl_lbl"><span>泰山</span>&nbsp;&nbsp;<div class="ppl_blast">TOP6</div> <div
+                        class="clear"></div></span> <span class="ppl_bltx"><span>28500</span>人玩过</span>
+                    <div game-template-id-description="" class="MG67812">
+                        原始森林丛林冒险，人猿泰山带你飞！红利转盘累计奖金可高达1000×总赌注，更有免费游戏堆叠图标有机会最多15个符号堆叠，开启你的冒险旅程吧！
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="ppl_box"><span class="pplimg"><div><img
+                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg/138.2.png"
+                    data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg/138.2.png"
+                    style="display: inline;"></div> <div class="pplbox_hvr"><div data-gameid="138"
+                                                                                 data-seviceid="ImmortalRomance"
+                                                                                 data-demo="1"
+                                                                                 data-gamename="Immortal Romance"
+                                                                                 data-gameplat="MG"
+                                                                                 class="_wc cursorClass">立即试玩</div> <a
+                    id="MG138" data-gamename="Immortal Romance" class="_sr"></a> <a id="MG138"
+                                                                                    data-gamename="Immortal Romance"
+                                                                                    class="_sr1"
+                                                                                    style="display: none;"></a></div></span>
+                <div class="ppl_dtls"><span class="ppl_lbl"><span>不朽情缘</span>&nbsp;&nbsp;<div
+                        class="ppl_blast">TOP7</div> <div class="clear"></div></span> <span
+                        class="ppl_bltx"><span>26590</span>人玩过</span>
+                    <div game-template-id-description="" class="MG138">
+                        青春魔幻大片“吸血鬼日记”上线，四大男女主角与你游戏赏片。多次触发进入旋转殿堂将依次解锁更多红利功能，赢取丰厚奖金，一起来追剧了解他们所有故事。
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="ppl_box  last"><span class="pplimg"><div><img
+                    src="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg/59067.2.png"
+                    data-original="http://a03slotimage.qcyhmv.com/static/A03P/_default/__static/_wms/_l/electronicgames/mg/59067.2.png"
+                    style="display: inline;"></div> <div class="pplbox_hvr"><div data-gameid="59067"
+                                                                                 data-seviceid="3Empires" data-demo="1"
+                                                                                 data-gamename="3 Empires"
+                                                                                 data-gameplat="MG"
+                                                                                 class="_wc cursorClass">立即试玩</div> <a
+                    id="MG59067" data-gamename="3 Empires" class="_sr"></a> <a id="MG59067" data-gamename="3 Empires"
+                                                                               class="_sr1" style="display: none;"></a></div></span>
+                <div class="ppl_dtls"><span class="ppl_lbl"><span>三国</span>&nbsp;&nbsp;<div class="ppl_blast">TOP8</div> <div
+                        class="clear"></div></span> <span class="ppl_bltx"><span>26083</span>人玩过</span>
+                    <div game-template-id-description="" class="MG59067">
+                        尔虞我诈是三国，说不清对与错，纷纷扰扰千百年以后，一切又从头！游戏逐鹿中原玩转特别奖，可以赢得高达40个免费游戏于8倍的倍增。是英雄，战场来厮杀！
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <a href="electronic_games.htm#recommend" id="vwmr" class="hlwnspdr">+ 更多 <span class="spdr"></span></a>
+            <div class="dotline"></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer_bottom">
+        <div class="container">
+            <a id="logo-ft1"></a>
+            <a id="logo-ft2"></a>
+            <a id="logo-ft3"></a>
+            <a id="logo-ft4"></a>
+            <a id="logo-ft5"></a>
+            <a id="logo-ft6"></a>
+            <a id="logo-ft7"></a>
+            <a id="logo-ft8"></a>
+            <a id="logo-ft9"></a>
+            <a id="logo-ft10"></a>
+            <a id="logo-ft11"></a>
+            <a id="logo-ft12"></a>
+            <a id="logo-ft13"></a>
+            <a id="logo-ft14"></a>
+            <a id="logo-ft15"></a>
+            <a id="logo-ft16"></a>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

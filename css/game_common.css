@@ -1,0 +1,289 @@
+.banner{
+    height:726px;
+    margin:0 auto;
+    position: relative;
+}
+
+.banner-slide{
+    height:726px;
+    margin:0 auto;
+
+    overflow: hidden;
+}
+
+.banner-slide>ul>li{
+    height:726px;
+}
+
+.banner-slide>a{
+    height:726px;
+    width:100%;
+}
+.banner-slide li a img{
+    position: absolute;
+    top:0;
+    left:0;
+    height:726px;
+    max-width:100%;
+    min-width:1200px;
+}
+
+.banner-slide .tab{
+    position: absolute;
+    top: 422px;
+    left: 0;
+    right: 0;
+    width: 400px;
+    margin: 0 auto;
+
+}
+.banner-slide .tab ul{
+    height: 3px;
+    font-size: 0;
+    min-width: 225px;
+}
+
+.banner-slide .tab ul li{
+    float: left;
+    width:70px;
+    height:3px;
+    background: #fff;
+    margin-right:5px;
+}
+
+.float_con{
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:-60px;
+    width:1200px;
+    height:340px;
+    margin:0 auto;
+    border:1px solid #eee;
+    border-bottom:3px solid #eee;
+    background:#f5fbff;
+}
+
+.float_con #fltcol1{
+    float: left;
+    width:390px;
+    height:340px;
+    position: relative;
+
+}
+.float_con #fltcol1 #toptxt{
+    position: absolute;
+    top:20px;
+    left:46px;
+    font-size: 12px;
+    font-weight:normal;
+    color:#000;
+    text-align: center;
+}
+.float_con #fltcol1 #cnybox{
+    position: absolute;
+    top:80px;
+    left:50px;
+    width:310px;
+    height:46px;
+    line-height:46px;
+    margin:0 auto;
+    font-weight:bold;
+    background: #ffc859;
+    border-radius:23px;
+    font-size: 16px;
+}
+#fltcol1 #cnybox .cny{
+    margin-left:45px;
+}
+
+#fltcol1 #hlwn1{
+    position: absolute;
+    top:-35px;
+    left:-35px;
+    width:94px;
+    height:94px;
+    background: url(http://a03slotimage.qcyhmv.com/style/A03P/_default/__static/__images/gamesite/index/hlwn1.gif) no-repeat;
+}
+
+#fltcol1 #hlwn2{
+    position: absolute;
+    top:-30px;
+    right:-15px;
+    width:68px;
+    height:34px;
+    background: url(http://a03slotimage.qcyhmv.com/style/A03P/_default/__static/__images/gamesite/index/hlwn2.png) no-repeat;
+}
+
+
+#fltcol1 .sh-pol{
+    position: absolute;
+    top:175px;
+    left:30px;
+    font-size: 16px;
+    font-weight:bold;
+    padding-left:13px;
+}
+
+#fltcol1 .sh-pol .red-bar{
+    position: absolute;
+    background:red;
+    width:4px;
+    height:15px;
+    left:0px;
+}
+
+#fltcol1 .total-pol{
+    position: absolute;
+    top:175px;
+    right:30px;
+    font-size: 12px;
+    text-decoration:underline;
+}
+
+#fltcol1 .col_wrap{
+    position: absolute;
+    top:220px;
+    left:30px;
+    width:334px;
+    height:108px;
+}
+#fltcol1 .col_wrap ul{
+    width:334px;
+    height:108px;
+    font-size: 0;
+}
+#fltcol1 .col_wrap ul li{
+    width:100px;
+    height:108px;
+    display:inline-block;
+    position: relative;
+}
+#fltcol1 .col_wrap ul li+li{
+    margin-left:17px;
+}
+
+#fltcol1 .col_wrap ul li p{
+    font-size:12px;
+    line-height:14px;
+    margin-top:5px;
+}
+#fltcol1 .col_wrap ul li p.cjpl-name{
+    color:blue;
+    text-decoration: underline;
+}
+
+
+.float_con #fltcol2{
+    float: left;
+    width:420px;
+    height:340px;
+
+    position: relative;
+}
+#fltcol2 .wek-list{
+
+    height:24px;
+    padding:20px 0 0 25px;
+}
+#fltcol2 .wek-list>p{
+    float: left;
+    font-size:16px;
+    font-weight:bold;
+    color:#000;
+
+}
+#fltcol2 .wek-list span.lis-bar{
+    width:2px;
+    height: 12px;
+    float: left;
+    margin:3px 10px;
+    background:#aaa;
+}
+
+#fltcol2 .user-img-list{
+    width:380px;
+    height:130px;
+    margin:10px auto;
+}
+#fltcol2 .user-img-list>div{
+    float: left;
+    margin: 5px 20px 0 0 ;
+
+    text-align: center;
+}
+#fltcol2 .user-img-list>div>p{
+    margin-top:3px;
+}
+.user-img-list.sec,.fir,.thi{
+    width:106px;
+    height:126px;
+
+}
+.user-img-list .sec img{
+    width:73px;
+    height:76px;
+    margin-top:8px;
+
+}
+.user-img-list .fir img{
+    width:88px;
+    height:84px;
+}
+.thi img{
+    width:73px;
+    height:76px;
+    margin-top:8px;
+}
+
+.user-tab-list{
+    width:390px;
+    height:110px;
+    background:#eee;
+    margin-top:36px;
+}
+.user-tab-list  .betorwin{
+    width:390px;
+    height: 34px;
+    border:1px solid red;
+}
+.user-tab-list  .betorwin .row-space{
+    height: 34px;
+    font-size:14px;
+    padding-left:20px;
+}
+.user-tab-list .betorwin .row-space p{
+    float: left;
+    margin-top:8px;
+}
+.user-tab-list  .betorwin .row-space .nun{
+    text-align: center;
+    margin-right:13px;
+    border-radius:50%;
+    width:18px;
+    height:18px;
+    background:#888;
+    color:#fff;
+}
+.user-tab-list  .row-space .imgvip{
+    width:40px;
+    height:16px;
+    margin-right:8px;
+    background:url(http://a03slotimage.qcyhmv.com/style/A03P/_default/__static/__images/gamesite/member/user-level.png) no-repeat  -84px -18px;
+}
+.user-tab-list  .row-space .user{
+    width:130px;
+}
+.user-tab-list  .row-space .yingli{
+    margin-right:20px;
+}
+
+
+
+
+.float_con #fltcol3{
+    float: left;
+    width:390px;
+    height:340px;
+    background:blue;
+}
